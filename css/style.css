@@ -1,0 +1,149 @@
+/*********************************TAG SELECTORS********************************/
+.header{
+  background-color: #F1D00A;
+  padding: 35px 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.header-link{
+  color: #21325E;
+  margin: 0 20px;
+}
+
+.top-container {
+  /*background-color: #041C32; #EBFFFA*/
+  position: relative;
+  padding-top: 50px;
+  height: auto;
+}
+
+
+.middle-container{
+  height: auto;
+}
+
+.bottom-container{
+}
+
+.skill-row1{
+  width: 50%;
+  margin: 25px auto 25px auto;
+  text-align: left;
+}
+
+.pc{
+   height: 350px;
+   margin: 30px;
+}
+
+.skill-row2{
+  width: 50%;
+  margin: 10px auto 25px auto;
+  text-align: left;
+}
+
+.me{
+  border: 5px dotted white;
+  border-radius: 200px;
+  padding: 5px;
+  height: 350px;
+  margin: 50px;
+}
+
+.something-about-me{
+  margin: 50px auto 100px auto;
+}
+
+.btn{
+  color: #F58840;
+}
+
+.footer-link{
+  color: #F58840;
+  margin: 0 20px;
+}
+
+.button-contact{
+  -webkit-border-radius: 57;
+  -moz-border-radius: 57;
+  border-radius: 57px;
+  font-family: Courier New;
+  color: #21325E;
+  font-size: 23px;
+  font-weight:bold;
+  background: #F1D00A;
+  padding: 10px 20px 10px 20px;
+  border: dotted #857207 3px;
+  text-decoration: none;
+  margin: 30px auto 60px auto;
+  width: 250px;
+}
+
+.button-contact:hover{
+  background: #fff09c;
+  text-decoration: none;
+}
+
+/********************************CLASS SELECTORS*******************************/
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #21325E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+  /*font-family: 'Merriweather', serif;*/
+}
+
+hr{
+  border-style: none;
+  border-top: dotted #F0F0F0 2px;
+  border-width: 6px;
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p{
+  color: #F0F0F0;
+  line-height: 1.5;
+  font-size: 1.4em;
+}
+
+li{
+  color: #F0F0F0;
+  line-height: 2;
+}
+
+h1{
+  color: #F1D00A;/*#66BFBF;*/
+  font-size: 4.8em;
+  margin: 50px auto 0 auto;
+  font-family: 'Major Mono Display', monospace;
+  /*font-family: 'Sacramento', cursive;*/
+  line-height: 2;
+}
+
+h2{
+  color: #F1D00A;
+  font-weight: normal;
+  font-size: 2.2rem;
+  font-family: 'Major Mono Display', monospace;
+  /*font-family: 'Montserrat', sans-serif;*/
+}
+
+h3{
+  color: #F1D00A;/*#11999E;*/
+  font-family: 'Major Mono Display', monospace;
+  /*font-family: 'Montserrat', sans-serif;*/
+}
+
+
+/********************************ID SELECTORS*********************************/

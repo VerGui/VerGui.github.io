@@ -5,7 +5,6 @@
   text-align: center;
   font-size: 25px;
   font-weight: bold;
-  /*position: fixed;*/
   top: 0;
   width: 100%;
   transition: 0.2s;
@@ -17,18 +16,13 @@
 }
 
 .top-container {
-  /*background-color: #041C32; #EBFFFA*/
   position: relative;
   padding-top: 50px;
   height: auto;
 }
 
-
 .middle-container{
   height: auto;
-}
-
-.bottom-container{
 }
 
 .skill-row1{
@@ -90,16 +84,30 @@
   text-decoration: none;
 }
 
+.up{
+  position: absolute;
+  right: 25px;
+}
+
+.up-word{
+  font-size: 40px;
+  color:  #F1D00A;
+}
+
+.arrow{
+  width: 30px;
+}
+
 /********************************CLASS SELECTORS*******************************/
 html{
   scroll-behavior: smooth;
 }
+
 body{
   background-color: #21325E;
   margin: 0;
   text-align: center;
   font-family: 'Major Mono Display', monospace;
-  /*font-family: 'Merriweather', serif;*/
 }
 
 hr{
@@ -123,11 +131,10 @@ li{
 }
 
 h1{
-  color: #F1D00A;/*#66BFBF;*/
+  color: #F1D00A;
   font-size: 4.8em;
   margin: 50px auto 0 auto;
   font-family: 'Major Mono Display', monospace;
-  /*font-family: 'Sacramento', cursive;*/
   line-height: 2;
 }
 
@@ -136,14 +143,11 @@ h2{
   font-weight: normal;
   font-size: 2.2rem;
   font-family: 'Major Mono Display', monospace;
-  /*font-family: 'Montserrat', sans-serif;*/
 }
 
 h3{
-  color: #F1D00A;/*#11999E;*/
+  color: #F1D00A;
   font-family: 'Major Mono Display', monospace;
-  /*font-family: 'Montserrat', sans-serif;*/
 }
-
 
 /********************************ID SELECTORS*********************************/

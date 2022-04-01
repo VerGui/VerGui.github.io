@@ -1,32 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: #21325E;
-  margin: 0;
-  text-align: center;
-  font-family: 'Major Mono Display', monospace;
-}
-
-hr {
-  border-style: none;
-  border-top: dotted #F0F0F0 2px;
-  border-width: 6px;
-  width: 20%;
-  margin-top: 8%;
-  margin-bottom: 3%;
-}
-
-li {
-  color: #F0F0F0;
-  line-height: 1.8;
-}
-
-h3 {
-  color: #F1D00A;
-}
-
 /**Header class**/
 .header {
   background-color: #F1D00A;
@@ -153,6 +124,35 @@ h3 {
 
 .arrow {
   width: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #21325E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted #F0F0F0 2px;
+  border-width: 6px;
+  width: 20%;
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+
+li {
+  color: #F0F0F0;
+  line-height: 1.8;
+}
+
+h3 {
+  color: #F1D00A;
 }
 
 

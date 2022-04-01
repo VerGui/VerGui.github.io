@@ -1,72 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Veronicas Webpage</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,700&family=Merriweather&family=Montserrat&family=Sacramento&family=Special+Elite&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Veronicas Webpage</title>
 
-    <div class="header" id="header">
-      <a href="#aboutMe" class="header-link" >ABOUT ME</a>
-      <a href="#mySkill" class="header-link" >MY SKILLS</a>
-      <a href="#contactME" class="header-link" >CONTACT ME</a>
-    </div>
+  <!---google font--->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,700&family=Merriweather&family=Montserrat&family=Sacramento&family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
 
-    <div class="top-container" id="home">
-      <h1>I'm Veronica..</h1>
-      <h2 class="subtitle">..a junior backend developer!</h2>
-      <a href="https://www.flaticon.com/free-icons/computer" title="computer icons"><img class="pc" src="images/computer.png" alt="computer-img"></a>
-    </div>
+  <!---Favicon--->
+  <link rel="icon" href="favicon.ico">
 
-    <div class="middle-container">
+  <!---CSS Stylesheets--->
+  <link rel="stylesheet" href="css/style.css">
 
-      <div class="profile" id="aboutMe">
-        <hr>
-        <br><br><br>
-        <img class="me" src="images/pic-modified.png" alt="MY PIC">
+  <!---Image Flaticon--->
+  <link href="https://www.flaticon.com/free-icons/computer" title="computer icons">
+  <link href="https://www.flaticon.com/free-icons/up-arrow" title="arrow up">
+  <link href="https://www.flaticon.com/free-icons/programmer" title="developer">
+  <link href="https://www.flaticon.com/free-icons/front-end" title="frontend">
+  <link href="https://www.flaticon.com/free-icons/up-arrow" title="arrow up">
+</head>
 
-        <div class="something-about-me">
-          <p>Born in Italy, living in Stockholm, Sweden, since 2010.</p>
-          <p>I'm a passionate and determinate Java developer student who will graduate in june 2022.</p>
-          <p>I see forward to start my It-career and see where it takes me.</p>
-          <br>
-          <table class="up" cellspacing="15px">
-            <tr>
-              <td>
-                <a href="https://www.flaticon.com/free-icons/up-arrow" title="arrow up"><img class="arrow" src="images/up-arrow.png" alt="arrow-up"></a>
-              </td>
-              <td>
-                <a href="#header" class="up-word">UP</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
+<body>
 
-      <div class="skills" id="mySkill">
-        <hr>
-        <h2>My Skills.</h2>
+  <div class="header" id="header">
+    <a href="#aboutMe" class="header-link">ABOUT ME</a>
+    <a href="#mySkill" class="header-link">MY SKILL</a>
+    <a href="#contactME" class="header-link">CONTACT ME</a>
+  </div>
 
-        <div class="skill-row1">
-          <table cellspacing= "30px">
-            <tr>
-              <td>
-                <a href="https://www.flaticon.com/free-icons/programmer" title="developer"><img class="skill-img" src="images/developer.png" alt="backend IMG" height="150" /></a>
-              </td>
-              <td>
-                <ul class="coding-languages">
+  <div class="first-container" id="home">
+    <h1 class="title-first-container">I'm Veronica..</h1>
+    <h2 class="subtitle-first-container">..a junior backend developer!</h2>
+    <img class="pc" src="images/computer.png" alt="computer-img">
+  </div>
+
+  <div class="second-container" id="aboutMe">
+    <hr>
+    <img class="me" src="images/pic-modified.png" alt="MY PIC">
+    <p class="text-second-container">Born in Italy, living in Stockholm, Sweden, since 2010.</p>
+    <p class="text-second-container">I'm a passionate and determinate Java developer student who will graduate in june 2022.</p>
+    <p class="text-second-container">I see forward to start my It-career and see where it takes me.</p>
+    <br>
+    <table class="up about-me-up" cellspacing="15px">
+      <tr>
+        <td>
+          <img class="arrow" src="images/up-arrow.png" alt="arrow-up">
+        </td>
+        <td>
+          <a href="#header" class="up-word">UP</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="third-container" id="mySkill">
+      <hr>
+      <h2 class="title-third-container">My Skills</h2>
+
+      <div class="skill-row1">
+        <table cellspacing="30px">
+          <tr>
+            <td>
+              <img class="skill-img" src="images/developer.png" alt="backend IMG">
+            </td>
+            <td>
+              <ul class="coding-languages">
                 <h3>Coding languages</h3>
                 <li>Java</li>
                 <li>Javascript</li>
@@ -74,17 +75,17 @@
                 <li>CSS</li>
                 <li>Python</li>
                 <li>C#</li>
-                </ul>
-              </td>
-            </tr>
-          </table>
-        </div>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
 
-        <div class="skill-row2">
-          <table cellspacing= "30px">
-            <tr>
-              <td>
-                <a href="https://www.flaticon.com/free-icons/front-end" title="frontend"><img class="skill-img" src="images/frontend-developer.png" alt="Frontend IMG" height="150"/></a>
+      <div class="skill-row2">
+        <table cellspacing="30px">
+          <tr>
+            <td>
+              <img class="skill-img" src="images/frontend-developer.png" alt="Frontend IMG">
             </td>
             <td>
               <ul class="frameworks">
@@ -104,48 +105,42 @@
         <table class="up" cellspacing="15px">
           <tr>
             <td>
-              <a href="https://www.flaticon.com/free-icons/up-arrow" title="arrow up"><img class="arrow" src="images/up-arrow.png" alt="arrow-up"></a>
+              <img class="arrow" src="images/up-arrow.png" alt="arrow-up">
             </td>
             <td>
               <a href="#header" class="up-word">UP</a>
             </td>
           </tr>
         </table>
-        <hr>
+        <hr class="last-hr">
         <br>
-        </div>
       </div>
-    </div>
+  </div>
 
-    <div class="bottom-container" id="contactME">
-      <div class="contact-me">
-        <br>
-        <h2>Get In Touch</h2>
-        <h3>Would yuo like to contact me?</h3>
-        <br>
-        <p>You can send me an email:</p>
-        <a class="btn" href="mailto:veronica.guizzardi@gmail.com"><button class="button-contact" type="button">CONTACT ME</button></a>
-      </div>
+  <div class="fourth-container" id="contactME">
+      <h2 class="title-fourth-container">Get In Touch</h2>
+      <h3>Would yuo like to contact me?</h3>
+      <br>
+      <p class="text-fourth-container">You can send me an email:</p>
+      <a class="footer-link" href="mailto:veronica.guizzardi@gmail.com"><button class="button-contact" type="button">CONTACT ME</button></a>
+      <p class="text-fourth-container">Connect with me on LinkedIn:</p>
+      <a class="footer-link" href="https://www.linkedin.com/in/veronica-guizzardi-32b550199/"><button class="button-contact" type="button">LinkedIn</button></a>
+      <p class="text-fourth-container">Or take a look to my GitHub page:</p>
+      <a class="footer-link" href="https://github.com/VerGui"><button class="button-contact" type="button">GitHub</button></a>
+      <br>
+      <p class="copyright">© Veronica Guizzardi</p>
+      <table class="up last-up-table" cellspacing="15px">
+        <tr>
+          <td>
+            <img class="arrow" src="images/up-arrow.png" alt="arrow-up">
+          </td>
+          <td>
+            <a href="#header" class="up-word">UP</a>
+          </td>
+        </tr>
+      </table>
+  </div>
 
-      <div class="footer">
-        <p>Connect with me on LinkedIn:</p>
-        <a class="footer-link" href="https://www.linkedin.com/in/veronica-guizzardi-32b550199/"><button class="button-contact" type="button">LinkedIn</button></a>
-        <p>Or take a look to my GitHub page:</p>
-        <a class="footer-link" href="https://github.com/VerGui"><button class="button-contact" type="button">GitHub</button></a>
-        <br>
-        <table class="up" cellspacing="15px">
-          <tr>
-            <td>
-              <a href="https://www.flaticon.com/free-icons/up-arrow" title="arrow up"><img class="arrow" src="images/up-arrow.png" alt="arrow-up"></a>
-            </td>
-            <td>
-              <a href="#header" class="up-word">UP</a>
-            </td>
-          </tr>
-        </table>
-        <p>© Veronica Guizzardi</p>
-      </div>
-    </div>
+</body>
 
-  </body>
 </html>

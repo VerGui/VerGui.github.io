@@ -499,34 +499,34 @@ h3{
 
   .title-first-container {
     margin-top: 20%;
-    font-size: 6.5rem;
+    font-size: 5rem;
     padding: 5% 5%;
   }
 
   .subtitle-first-container {
     font-size: 2.5rem;
-    line-height: 1.5;
+    line-height: 1;
     margin: 10% 3%;
   }
 
   .pc {
     height: 700px;
-    margin: 13% auto;
+    margin: 4% auto;
   }
 
   .me {
-    height: 600px;
-    margin: 12% auto;
+    height: 500px;
+    margin: 10% auto;
   }
 
   .text-second-container {
-    font-size: 2.6rem;
-    line-height: 1.6;
+    font-size: 2rem;
+    line-height: 1.4;
     padding: 1%;
   }
 
   .title-third-container{
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   .skill-img {
@@ -535,19 +535,19 @@ h3{
   }
 
   .skill-row1{
-    margin: 10% auto;
+    margin: 8% auto;
   }
   .skill-row2{
-    margin: 20% auto;
+    margin: 15% auto;
   }
 
   .title-fourth-container{
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 2;
   }
 
   .text-fourth-container {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 5%;
   }
 
@@ -567,8 +567,8 @@ h3{
 
   .button-contact {
     padding: 10px 20px 10px 20px;
-    margin: 30px auto 60px auto;
-    font-size: 3rem;
+    margin: 5px auto 25px auto;
+    font-size: 2.6rem;
     width: 30rem;
   }
 
@@ -578,7 +578,7 @@ h3{
   }
 
   .up{
-    margin-top: 15%;
+    margin-top: 5%;
   }
 
   .up-word {
@@ -591,16 +591,16 @@ h3{
   }
 
   h3{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   hr {
-    margin-top: 30%;
-    margin-bottom: 15%;
+    margin-top: 15%;
+    margin-bottom: 10%;
   }
 
   li {
-    font-size: 2.2rem;
-    line-height: 1.5;
+    font-size: 1.6rem;
+    line-height: 1.4;
   }
 }
